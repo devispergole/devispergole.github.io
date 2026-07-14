@@ -33,9 +33,11 @@ header {
     z-index: 1000;
 }
 
-.logo img {
+..logo img {
     height: 60px; /* Logo yüksekliği */
     object-fit: contain;
+    mix-blend-mode: multiply; /* Beyaz arka planı şeffaf yapar */
+}
 }
 
 nav {
